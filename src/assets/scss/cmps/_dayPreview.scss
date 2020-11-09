@@ -1,0 +1,34 @@
+.day-card {
+    border: 1px solid blanchedalmond;
+    border-radius: 15px;
+    width: 200px;
+    height: 280px;
+    margin: 20px;
+    opacity: 0.8;
+    background-color: aquamarine;
+    font-family: 'Raleway' , sans-serif;
+    animation: fadeIn ease 2.5s;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.days-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.days-list-box {
+    
+    h3 {
+        font-size: 35px;
+        color: rgb(211, 211, 211);
+    }
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}

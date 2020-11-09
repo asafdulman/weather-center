@@ -1,0 +1,17 @@
+.nav-btn {
+    font-family: 'Raleway', sans-serif; 
+    margin: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: yellow;
+}
+
+.main-nav {
+    padding-top: 20px;
+}
+
+@media (max-width: 400px) {
+    .main-nav {
+        text-align: center;
+    }
+}
