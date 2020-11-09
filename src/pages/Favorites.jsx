@@ -29,7 +29,7 @@ export class Favorites extends Component {
     render() {
 
         const { favCities } = this.state
-        if (!favCities) return <h1>No Favorites Cities Here</h1>
+        if (!favCities) return <h1 className="no-fav">Favorite places box is empty.</h1>
         return (
             <div className="favorite-box">
                 <h1>Your Favorite Places</h1>

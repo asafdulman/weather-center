@@ -31,26 +31,24 @@ export class Home extends Component {
         })
 
         const cities = await weatherService.getCities(value)
-        console.log('cities', cities);
+        // console.log('cities', cities);
         this.setState({ cities })
     }
 
     onAddCity = async (city) => {
         const cityToShow = await weatherService.getWeather(city.Key)
-        console.log('city', cityToShow.DailyForecasts);
+        // console.log('city', cityToShow.DailyForecasts);
         this.setState({ cityToSave: city, cityToShow, value: '', cities: [] })
     }
 
     addToFavorites = (city) => {
         weatherService.saveFavCity(city)
-        console.log('city added to favs', city);
+        // console.log('city added to favs', city);
         this.setState({ isFav: !this.state.isFav, showModal: !this.state.showModal })
         setTimeout(() => {
             this.setState({ showModal: !this.state.showModal })
         }, 2000);
     }
-
-
 
     render() {
         return (
