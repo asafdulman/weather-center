@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12e19b32eed74d9a74d664ff7ca3ada1",
+    "revision": "5ad801cecb4eb0406da414b14b5b3731",
     "url": "/weather-center/index.html"
   },
   {
-    "revision": "53f18b3979880bbe0247",
-    "url": "/weather-center/static/css/main.85410e0e.chunk.css"
+    "revision": "1ec67afac413ffa16c76",
+    "url": "/weather-center/static/css/main.f0905dd7.chunk.css"
   },
   {
     "revision": "6cba7e616b039b8513e2",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weather-center/static/js/2.9829e713.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "53f18b3979880bbe0247",
+    "revision": "1ec67afac413ffa16c76",
     "url": "/weather-center/static/js/main.3cf2cd2f.chunk.js"
   },
   {
